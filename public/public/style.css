@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(45deg,#ff4e50,#fc913a);
+  margin:0;
+}
+
+.chat-container {
+  display:flex;
+  height:100vh;
+}
+
+.sidebar {
+  width:200px;
+  background:#222;
+  color:white;
+  padding:10px;
+}
+
+.chat {
+  flex:1;
+  background:white;
+  padding:10px;
+}
+
+#messages {
+  height:70%;
+  overflow:auto;
+  border:1px solid #ccc;
+  margin-bottom:10px;
+}
