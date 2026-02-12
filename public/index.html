@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>چت روم مهلا</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+  <div class="sidebar">
+    <h3>آنلاین‌ها</h3>
+    <div id="users"></div>
+  </div>
+
+  <div class="chat">
+    <h2>چت روم مهلا 👑</h2>
+    <div id="messages"></div>
+    <input id="msgInput" placeholder="پیام بنویس...">
+    <button onclick="sendMsg()">ارسال</button>
+  </div>
+</div>
+
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
